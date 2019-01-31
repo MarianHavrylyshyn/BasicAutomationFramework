@@ -42,6 +42,7 @@ public class Driver {
             caps.setCapability(MobileCapabilityType.PLATFORM_VERSION, "9.0.0");
             caps.setCapability(MobileCapabilityType.DEVICE_NAME, "Nexus 5X API 28 x86");
             caps.setCapability(AndroidMobileCapabilityType.AVD, "Nexus_5X_API_28_x86");
+            caps.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, "3000");
             try {
                 androidDriver = new AndroidDriver(new URL("http://0.0.0.0:4723/wd/hub"),caps);
             } catch (MalformedURLException e) {
@@ -55,7 +56,7 @@ public class Driver {
              public void closeAndroidDriver(){
         try {
             if(androidDriver != null ){
-                androidDriver.quit();
+                //androidDriver.quit();
             }
         }finally{
             androidDriver = null;

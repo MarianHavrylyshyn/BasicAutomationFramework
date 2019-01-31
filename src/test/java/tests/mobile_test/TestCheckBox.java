@@ -10,7 +10,7 @@ import pages.mobile_pages.InputControlsScreen;
 public class TestCheckBox extends GenericMobileTest {
     @Description("Test checkbox is active on the Input Controls screen")
     public void testCheckBox(){
-        openMobileApp().openInputControlsScreen().swipe();
+        openMobileApp().openInputControlsScreen().swipe().
     }
 }
 

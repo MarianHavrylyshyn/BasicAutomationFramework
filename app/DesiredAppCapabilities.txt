@@ -1,0 +1,8 @@
+{
+  "app": "C:\\Users\\Marian Havrylyshyn\\IdeaProjects\\Saucedemo\\app\\app-debug.apk",
+  "platformName": "Android",
+  "platformVersion": "9.0.0",
+  "deviceName": "Nexus 5X API 28 x86",
+  "avd": "Nexus_5X_API_28_x86",
+  "newCommandTimeout": "3000"
+}
