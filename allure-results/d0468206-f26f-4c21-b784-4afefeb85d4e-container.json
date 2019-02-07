@@ -1,0 +1,1 @@
+{"uuid":"d0468206-f26f-4c21-b784-4afefeb85d4e","name":"tests.web_test.TestLogin","children":["08e1c638-ff03-42f7-b40b-e0d3c9a314ec"],"befores":[],"afters":[{"name":"afterClass","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1548947696360,"stop":1548947697132}],"links":[],"start":1548947688070,"stop":1548947697192}

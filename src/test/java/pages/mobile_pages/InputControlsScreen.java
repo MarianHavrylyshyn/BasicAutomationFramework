@@ -1,10 +1,7 @@
 package pages.mobile_pages;
 import apps.MobileApp;
 import io.appium.java_client.TouchAction;
-import io.appium.java_client.android.AndroidDriver;
-import io.appium.java_client.touch.LongPressOptions;
 import io.appium.java_client.touch.offset.PointOption;
-import org.openqa.selenium.interactions.touch.TouchActions;
 
 public class InputControlsScreen extends AbstractMobilePage {
 

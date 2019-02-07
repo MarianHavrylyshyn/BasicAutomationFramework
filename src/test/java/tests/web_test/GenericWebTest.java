@@ -1,11 +1,13 @@
 package tests.web_test;
 import apps.WebApp;
+
+import data.Constant;
 import io.qameta.allure.Step;
+import org.openqa.selenium.By;
 import org.testng.annotations.AfterClass;
-import pages.web_pages.LoginPage;
+import pages.web_pages.*;
 
 public class GenericWebTest extends WebApp {
-    private String defaultBrowser = "chrome";
 
     @Step
     @AfterClass(alwaysRun = true)
@@ -14,8 +16,10 @@ public class GenericWebTest extends WebApp {
     }
 
     @Step
-    public LoginPage openWebApp(String url){
-        getDriver().get(url);
-        return  new LoginPage();
+    public HomePage openWebApp(String url){
+        getDriver().get(Constant.URL);
+        getDriver().findElement(By.id("accept-btn")).click();
+        return  new HomePage();
     }
+
 }

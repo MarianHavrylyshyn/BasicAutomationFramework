@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 @Link("Jira link to user story")
 @Test
 public class MobileNegativeLogin extends GenericMobileTest  {
-    @Description("Test negative login for mobile app")
+    @Description("Test negative login for mobile apps")
     public void testMobileNegativeLogin()  {
         boolean negativeLogin = openMobileApp().openLoginScreen().login().isErrorMessageDisplayed();
         Assert.assertTrue(negativeLogin,"Negative Login test has failed, error message is not displayed");

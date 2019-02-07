@@ -6,6 +6,8 @@ import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.qameta.allure.Step;
 import pages.mobile_pages.HomeScreen;
 import pages.mobile_pages.LoginScreen;
+
+
 import java.util.List;
 
 public class GenericMobileTest extends MobileApp {

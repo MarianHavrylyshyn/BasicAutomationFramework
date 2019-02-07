@@ -1,0 +1,1 @@
+{"uuid":"00090a23-2120-4acf-94ca-bb3e0462e24d","name":"tests.web_test.BuyItems","children":["d5c31da8-4231-4642-a7bd-563db11f2220"],"befores":[],"afters":[{"name":"afterClass","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1549452490940,"stop":1549452490941}],"links":[],"start":1549452476930,"stop":1549452490961}

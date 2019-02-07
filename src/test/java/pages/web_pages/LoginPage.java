@@ -32,16 +32,14 @@ public class LoginPage extends  AbstractWebPage{
     public LoginPage fillLoginFormWithInvalidData(String usernameinvalid, String passwordinvalid){
         fillLoginForm(usernameinvalid, passwordinvalid);
         loginButton.click();
-        return this;
+        return new LoginPage();
     }
-
     @Step
     public HomePage loginAs(String username, String password){
         fillLoginForm(username, password);
         loginButton.click();
         return new HomePage();
     }
-
     @Step
     public boolean isLoginErrorDisplayed (){
         return errorMessage.isDisplayed();

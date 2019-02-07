@@ -1,5 +1,6 @@
 package Tools;
 
+import Tools.Browser;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.remote.AndroidMobileCapabilityType;
 import io.appium.java_client.remote.MobileCapabilityType;
@@ -27,17 +28,19 @@ public class Driver {
     public void closeDriver(){
         try {
             if(driver != null ){
-                driver.quit();
+                //driver.quit();
             }
         }finally{
             driver = null;
         }
 
     }
+
+
     public AndroidDriver getAndroidDriver()  {
         if (androidDriver == null ) {
             DesiredCapabilities caps = new DesiredCapabilities();
-            caps.setCapability(MobileCapabilityType.APP, System.getProperty("user.dir") + File.separator + "app" + File.separator + "app-debug.apk");
+            caps.setCapability(MobileCapabilityType.APP, System.getProperty("user.dir") + File.separator + "apps" + File.separator + "");
             caps.setCapability(MobileCapabilityType.PLATFORM_NAME, MobilePlatform.ANDROID);
             caps.setCapability(MobileCapabilityType.PLATFORM_VERSION, "9.0.0");
             caps.setCapability(MobileCapabilityType.DEVICE_NAME, "Nexus 5X API 28 x86");
@@ -45,6 +48,7 @@ public class Driver {
             caps.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, "3000");
             try {
                 androidDriver = new AndroidDriver(new URL("http://0.0.0.0:4723/wd/hub"),caps);
+                System.out.println(androidDriver.getSessionDetails());
             } catch (MalformedURLException e) {
                 e.printStackTrace();
             }
@@ -61,6 +65,5 @@ public class Driver {
         }finally{
             androidDriver = null;
         }
-
     }
 }

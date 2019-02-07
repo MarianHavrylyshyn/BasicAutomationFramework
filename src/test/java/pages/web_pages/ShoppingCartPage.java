@@ -4,22 +4,14 @@ import io.qameta.allure.Step;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-import java.util.List;
+public class ShoppingCartPage extends AbstractWebPage {
 
-public class ShoppingCartPage extends AbstractWebPage{
-
-    @FindBy(id = "cart_contents_container")
-    private List<WebElement> shopingCartProductList;
-
-    @FindBy(className = "cart_checkout_link")
-    private WebElement checkOutBtn;
+    @FindBy(xpath = "//a[@class='btn btn-default']")
+    private WebElement proceedToCheckoutBtn;
 
     @Step
-    public CheckOutYourInformationPage openCheckOutYourInformationPage(){
-        checkOutBtn.click();
-        return new CheckOutYourInformationPage();
+    public CheckoutPage openCheckoutPage()  {
+        proceedToCheckoutBtn.click();
+        return new CheckoutPage();
     }
-
-
-
 }

@@ -2,16 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="25704" started-at="2019-01-30T18:12:58Z" finished-at="2019-01-30T18:13:24Z">
+  <suite name="testng" duration-ms="15483" started-at="2019-02-06T15:38:39Z" finished-at="2019-02-06T15:38:54Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="25704" started-at="2019-01-30T18:12:58Z" finished-at="2019-01-30T18:13:24Z">
-      <class name="tests.mobile_test.MobileNegativeLogin">
-        <test-method status="PASS" signature="testMobileNegativeLogin()[pri:0, instance:tests.mobile_test.MobileNegativeLogin@1af1347d]" name="testMobileNegativeLogin" duration-ms="25251" started-at="2019-01-30T18:12:58Z" finished-at="2019-01-30T18:13:23Z">
+    <test name="UnregisteredUser" duration-ms="15483" started-at="2019-02-06T15:38:39Z" finished-at="2019-02-06T15:38:54Z">
+      <class name="tests.web_test.BuyItems">
+        <test-method status="PASS" signature="buyItemsFromFeaturedSection()[pri:0, instance:tests.web_test.BuyItems@7bfc3126]" name="buyItemsFromFeaturedSection" duration-ms="15248" started-at="2019-02-06T15:38:39Z" finished-at="2019-02-06T15:38:54Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testMobileNegativeLogin -->
-      </class> <!-- tests.mobile_test.MobileNegativeLogin -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
+        </test-method> <!-- buyItemsFromFeaturedSection -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.web_test.BuyItems@7bfc3126]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-02-06T15:38:54Z" finished-at="2019-02-06T15:38:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.web_test.BuyItems -->
+    </test> <!-- UnregisteredUser -->
+  </suite> <!-- testng -->
 </testng-results>

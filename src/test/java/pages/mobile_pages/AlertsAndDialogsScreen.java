@@ -1,6 +1,5 @@
 package pages.mobile_pages;
 
-import apps.MobileApp;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.qameta.allure.Step;

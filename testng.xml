@@ -1,20 +1,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="testng" verbose="1" parallel="tests" thread-count="1" group-by-instances="true">
-    <test name="Login">
+    <test name="UnregisteredUser">
         <classes>
-            <class name="tests.web_test.TestLogin"></class>
-            <class name="tests.web_test.NegativeLogin"></class>
-        </classes>
-    </test>
-    <test name="PurchaseItems">
-        <classes>
-            <class name="tests.web_test.TestAddProductsToCart"></class>
-        </classes>
-    </test>
-    <test name="MobileTests">
-        <classes>
-            <class name="tests.mobile_test.MobileNegativeLogin"></class>
-            <class name="tests.mobile_test.TestAlertMessage"></class>
+            <class name="tests.web_test.BuyItems"></class>
         </classes>
     </test>
 </suite>
