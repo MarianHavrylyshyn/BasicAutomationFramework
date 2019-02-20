@@ -24,10 +24,12 @@ apps\MobileApp$1.class
 pages\web_pages\MembershipPage.class
 pages\web_pages\HomePage.class
 tests\mobile_test\TestAlertMessage.class
+pages\web_pages\MembershipApplicationPage.class
 tests\mobile_test\TestCheckBox.class
 data\UserDataProvider.class
 pages\web_pages\NewsPage.class
 tests\mobile_test\GenericMobileTest.class
 pages\mobile_pages\AlertsAndDialogsScreen.class
 pages\web_pages\OpinionsPage.class
+tests\web_test\PrimaryMembershipApplicationSubmit.class
 Tools\Browser.class

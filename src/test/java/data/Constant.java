@@ -9,4 +9,5 @@ public class Constant {
     public static final String FIRSTNAME = "Marian";
     public static final String LASTNAME = "Havrylyshyn";
     public static final String POSTALCODE = "90002";
+    public static final String Email = "mhavrylyshyn@morebis.pl";
 }

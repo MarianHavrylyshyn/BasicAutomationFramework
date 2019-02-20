@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="testng" duration-ms="15483" started-at="2019-02-06T15:38:39Z" finished-at="2019-02-06T15:38:54Z">
+  <suite name="testng" duration-ms="31891" started-at="2019-02-19T12:32:28Z" finished-at="2019-02-19T12:33:00Z">
     <groups>
     </groups>
-    <test name="UnregisteredUser" duration-ms="15483" started-at="2019-02-06T15:38:39Z" finished-at="2019-02-06T15:38:54Z">
+    <test name="UnregisteredUser" duration-ms="31891" started-at="2019-02-19T12:32:28Z" finished-at="2019-02-19T12:33:00Z">
       <class name="tests.web_test.BuyItems">
-        <test-method status="PASS" signature="buyItemsFromFeaturedSection()[pri:0, instance:tests.web_test.BuyItems@7bfc3126]" name="buyItemsFromFeaturedSection" duration-ms="15248" started-at="2019-02-06T15:38:39Z" finished-at="2019-02-06T15:38:54Z">
+        <test-method status="PASS" signature="buyItemsFromFeaturedSection()[pri:0, instance:tests.web_test.BuyItems@26f143ed]" name="buyItemsFromFeaturedSection" duration-ms="31571" started-at="2019-02-19T12:32:28Z" finished-at="2019-02-19T12:33:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- buyItemsFromFeaturedSection -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.web_test.BuyItems@7bfc3126]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-02-06T15:38:54Z" finished-at="2019-02-06T15:38:54Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.web_test.BuyItems@26f143ed]" name="afterClass" is-config="true" duration-ms="9" started-at="2019-02-19T12:33:00Z" finished-at="2019-02-19T12:33:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
